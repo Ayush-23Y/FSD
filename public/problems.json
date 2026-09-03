@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "name": "Two Sum",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 2,
+    "name": "Binary Search",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 3,
+    "name": "Valid Parentheses",
+    "difficulty": "Easy"
+  },
+  {
+    "id": 4,
+    "name": "Merge Sort",
+    "difficulty": "Medium"
+  },
+  {
+    "id": 5,
+    "name": "Number of Islands",
+    "difficulty": "Medium"
+  }
+]
