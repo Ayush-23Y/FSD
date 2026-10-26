@@ -1,0 +1,15 @@
+
+services:
+  frontend:
+    build: .
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend
+
+  backend:
+    build: ./backend
+    ports:
+      - "5005:5005"
+    env_file:
+      - ./backend/.env
