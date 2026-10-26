@@ -10,7 +10,7 @@ export default function Chat() {
     const [connected, setConnected] = useState(false);
 
     useEffect(() => {
-        const socket = io("http://localhost:5005");
+        const socket = io("https://codearc-backend.onrender.com");
         socketRef.current = socket;
 
         socket.on("connect", () => setConnected(true));
